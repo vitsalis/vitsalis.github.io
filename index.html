@@ -1,104 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="The personal website of Vitalis Salis" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Vitalis Salis — CTO of Babylon Labs" />
 
-        <title>Vitalis Salis | Head of Engineering at Babylon</title>
+    <title>Vitalis Salis</title>
 
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <div id="preamble">
-            <h1 class="title">Vitalis Salis</h1>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="photo.jpg" alt="Vitalis Salis" class="photo" />
+      <div class="header-text">
+        <h1>Vitalis Salis</h1>
+        <p class="contact">
+          <a href="mailto:vitsalis@gmail.com">email</a>
+          <span class="separator">/</span>
+          <a href="https://github.com/vitsalis">github</a>
+          <span class="separator">/</span>
+          <a href="https://x.com/vitsalis">X</a>
+        </p>
+      </div>
+    </header>
 
-            <h1 class="subtitle" style="margin-bottom: 35px;">
-                contact me via
-                <a href="mailto:vitsalis@gmail.com">email</a>,
-                <a href="https://github.com/vitsalis">github</a>, or
-                <a href="https://twitter.com/vitsalis">twitter</a>
-            </h2>
-        </div>
+    <div id="intro">
+      <p>
+        I am the CTO of
+        <a href="https://babylonlabs.io">Babylon Labs</a>, where we are
+        building the
+        <a href="https://babylonlabs.io/blog/trustless-bitcoin-vaults"
+          >Trustless Bitcoin Vaults</a
+        >
+        protocol &mdash; enabling Bitcoin holders to trustlessly use their BTC
+        as collateral on DeFi applications, launching this year with an
+        <a href="https://aave.com">Aave</a> v4 integration. I joined as a
+        founding engineer and have led the technical team through every stage
+        of the project's growth.
+      </p>
 
-        <div id="intro">
-            <p>I am the head of engineering of <a href="https://babylonchain.io">Babylon</a>,
-            a project that unlocks Bitcoin's full potential by enabling it to become
-            a staking asset to secure the PoS world.</p>
+      <p>
+        Before Babylon, I was a researcher at the Athens University of Economics
+        and Business, where I focused on static program analysis. My work there
+        produced
+        <a href="https://github.com/vitsalis/pycg">PyCG</a>, a widely adopted
+        call graph generator for Python
+        (<a href="https://arxiv.org/pdf/2103.00587.pdf">paper</a>), as well as
+        published research on
+        <a href="https://www.sciencedirect.com/science/article/pii/S2352711018300712"
+          >Git repository analysis</a
+        > and
+        <a href="https://dimitro.gr/assets/papers/MLSS19.pdf"
+          >JavaScript code evolution</a
+        >. Earlier, I worked as a software and infrastructure engineer at
+        <a href="https://grnet.gr/en/">GRNET</a>. I studied electrical and
+        computer engineering at the National Technical University of Athens.
+      </p>
 
-            <ul>
-                <li>I’m a pragmatic engineer focused on creating scalable architecture for distributed systems.
-                    I like to work in the entire spectrum of a system and
-                    typically contribute to research, blockchain core, backend, frontend, and infra.
-                </li>
-                <li>I am a strong proponent of the hacker ethos.
-                    I learn with the purpose of doing.
-                </li>
-                <li>
-                    I build working systems first and then collect data to improve them.
-                    I hate unverified hypotheses.
-                </li>
-            </ul>
-        </div>
-        <hr>
-    <div id="bio">
-        <div id="software">
-            <h2>Software and Projects</h2>
-            <ul>
-                <li>
-                    <a href="https://github.com/babylonchain/babylon">Babylon Core</a>:
-                    A Cosmos SDK based blockchain node that powers the Babylon blockchain.
-                </li>
-                <li>
-                    <a href="https://github.com/babylonchain/vigilante">Vigilante</a>:
-                    A set of tools that enable relaying information between Bitcoin and Babylon
-                    as well as monitoring for consistency between the two blockchains.
-                </li>
-                <li>
-                    <a href="https://github.com/vitsalis/pycg">PyCG</a>:
-                    The state of the art static call graph generator for Python programs.
-                </li>
-                <li>
-                    <a href="https://github.com/AUEB-BALab/RepoFS">RepoFS</a>:
-                    A tool for exploring Git repositories by mounting them as a virtual file system.
-                </li>
-                <li>
-                    Solutions to algorithm problems from
-                    <a href="https://github.com/vitsalis/project-euler">Project Euler</a>,
-                    <a href="https://github.com/vitsalis/spoj">SPOJ</a>, and
-                    <a href="https://github.com/vitsalis/codeforces">CodeForces</a>.
-                </li>
-            </ul>
-        </div>
+      <p>
+        After a few years as a digital nomad living and working in different
+        cities around the world, I'm now back home in Athens, Greece. Outside of
+        work, I enjoy running, the mountains, and the occasional sauna and cold
+        plunge.
+      </p>
+    </div>
 
-        <div id="research">
-            <h2>Research</h2>
-            In the past, I have dabbled in research focusing on static program analysis.
-            <ul>
-                <li>
-                    <a href="https://arxiv.org/pdf/2103.00587.pdf">
-                        PyCG: Practical Call Graph Generation in Python
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.sciencedirect.com/science/article/pii/S2352711018300712">
-                        RepoFS: File system view of Git repositories
-                    </a>
-                </li>
-                <li>
-                    <a href="https://dimitro.gr/assets/papers/MLSS19.pdf">
-                        Time present and time past: analyzing the evolution of JavaScript code in the wild
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <hr>
-        <div id="footer">
-            <p class = "footer"><i>This website was modified from
-            <a href="https://github.com/gakonst/gakonst.github.io"/>gakonst's fork</a> of the
-            <a href="https://github.com/transmissions11/transmissions11.github.io"/>transmissions11's fork</a> of the
-            <a href="https://github.com/dapphub/dapp-tools"/>dapptools</a> website.</i></p>
-        </div>
-    </body>
+  </body>
 </html>
